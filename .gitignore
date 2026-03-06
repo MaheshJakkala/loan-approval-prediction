@@ -1,0 +1,29 @@
+# Data files — download via Kaggle API (see data/README.md)
+data/*.csv
+data/*.zip
+*.csv
+
+# Kaggle credentials — NEVER commit these
+kaggle.json
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
